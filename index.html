@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tricycle Pathways Prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-wash" aria-hidden="true"></div>
+    <main class="shell">
+      <header class="brand-bar">
+        <div class="brand-lockup">
+          <div class="brand-mark">Tricycle</div>
+        </div>
+      </header>
+
+      <section id="welcome-screen" class="screen screen-active">
+        <div class="welcome-stack">
+          <article class="welcome-hero">
+            <div id="hero-media" class="media-slot hero-media hero-media-large">
+              <div class="media-slot-copy">
+                <p class="media-slot-label">Image Placeholder</p>
+                <h2>Hero editorial image</h2>
+                <p>
+                  Replace with a quiet portrait, contemplative interior, or still-life image with
+                  enough negative space to feel calm.
+                </p>
+              </div>
+            </div>
+
+            <div class="hero-copy hero-copy-stacked">
+              <h1>Find Your Tricycle Pathway</h1>
+              <p class="hero-text">
+                A short set of questions to help you find a meaningful place to begin with Tricycle's
+                teachings and practices.
+              </p>
+              <div class="hero-actions">
+                <button id="begin-quiz" class="button button-primary">Start Quiz</button>
+                <button id="jump-to-preview" class="button button-secondary">Preview a Pathway</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="quiz-screen" class="screen">
+        <div class="quiz-shell">
+          <div class="quiz-topline">
+            <button id="quiz-home" class="text-button" type="button">Home</button>
+            <div class="progress-cluster">
+              <span id="progress-label">Question 1 of 6</span>
+              <div class="progress-bar" aria-hidden="true">
+                <div id="progress-fill" class="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="question-frame">
+            <div class="question-layout">
+              <div class="question-main">
+                <div class="question-copy">
+                  <p class="eyebrow" id="question-kicker">Question 1</p>
+                  <h2 id="question-prompt">Question prompt</h2>
+                  <p class="question-note" id="question-note"></p>
+                </div>
+
+                <div id="answer-list" class="answer-list" role="list"></div>
+
+                <div class="question-actions">
+                  <button id="back-button" class="button button-tertiary" type="button">Back</button>
+                  <button id="next-button" class="button button-primary" type="button" disabled>
+                    Next
+                  </button>
+                </div>
+              </div>
+
+              <aside class="question-aside">
+                <div id="question-media-slot" class="media-slot question-media">
+                  <div class="media-slot-copy">
+                    <p class="media-slot-label" id="question-visual-label">Image Placeholder</p>
+                    <h3 id="question-visual-title">Question editorial image</h3>
+                    <p id="question-visual-copy">
+                      Replace this area with an image, illustration, or quiet still-life that
+                      supports the emotional tone of the question.
+                    </p>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="result-screen" class="screen">
+        <article class="result-stage">
+          <div class="result-stage-grid">
+            <div class="result-copy-column">
+              <div class="result-hero">
+                <p class="eyebrow">Your Tricycle Pathway</p>
+                <h2 id="result-title">Presence &amp; Mindfulness</h2>
+                <p id="result-summary" class="result-summary"></p>
+                <div class="result-actions">
+                  <button id="preview-week-one" class="button button-primary" type="button">
+                    Start Week 1
+                  </button>
+                  <button id="retake-quiz" class="button button-secondary" type="button">
+                    Retake Quiz
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="result-side-column">
+              <aside class="result-media-panel">
+                <div id="result-media-slot" class="media-slot result-media">
+                  <div class="media-slot-copy">
+                    <p class="media-slot-label">Pathway Image</p>
+                    <h3 id="result-visual-title">Editorial image</h3>
+                    <p id="result-visual-copy">Add a quiet image for this pathway.</p>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </article>
+
+        <section class="result-continue">
+          <div class="result-continue-intro">
+            <p class="panel-title">Continue Beyond Week 1</p>
+            <h3 class="result-continue-heading">Two optional ways to continue when you are ready.</h3>
+          </div>
+
+          <div class="extension-grid">
+            <article class="extension-card">
+              <div class="mini-visual" id="deck-visual"></div>
+              <h3 id="deck-title">Pocket Deck</h3>
+              <p id="deck-copy"></p>
+            </article>
+            <article class="extension-card">
+              <div class="mini-visual" id="event-visual"></div>
+              <h3 id="event-title">Intro Week</h3>
+              <p id="event-copy"></p>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section id="email-screen" class="screen">
+        <div class="email-layout">
+          <article class="email-preview">
+            <div class="email-header">
+              <div>
+                <p class="eyebrow">Week 1 Preview</p>
+                <h2 id="email-title">Welcome to your pathway</h2>
+              </div>
+              <button id="back-to-result" class="button button-secondary" type="button">
+                Back to Result
+              </button>
+            </div>
+
+            <div id="email-media-slot" class="media-slot email-media">
+              <div class="media-slot-copy">
+                <p class="media-slot-label">Image Placeholder</p>
+                <h3 id="email-visual-title">Week 1 editorial image</h3>
+                <p id="email-visual-copy"></p>
+              </div>
+            </div>
+
+            <div class="email-card">
+              <p class="email-kicker">From Tricycle</p>
+              <h3 id="email-subject"></h3>
+              <p id="email-intro"></p>
+
+              <div class="email-sections">
+                <section>
+                  <h4>Today's practice</h4>
+                  <p id="practice-copy"></p>
+                </section>
+                <section>
+                  <h4>Suggested reading</h4>
+                  <p id="reading-copy"></p>
+                </section>
+                <section>
+                  <h4>Journal prompt</h4>
+                  <p id="reflection-copy"></p>
+                </section>
+              </div>
+            </div>
+          </article>
+
+          <aside class="capture-panel">
+            <div class="panel-card">
+              <p class="panel-title">Save this pathway</p>
+              <p class="capture-copy">
+                This form can post the pathway result and quiz answers into a Google Sheet once a
+                webhook URL is configured.
+              </p>
+
+              <form id="capture-form" class="capture-form">
+                <label>
+                  <span>Name</span>
+                  <input id="name-input" name="name" type="text" placeholder="Optional" />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input id="email-input" name="email" type="email" placeholder="Optional" />
+                </label>
+                <button class="button button-primary button-full" type="submit">
+                  Save Result
+                </button>
+              </form>
+
+              <p id="submit-status" class="submit-status" role="status"></p>
+            </div>
+
+            <div class="panel-card">
+              <p class="panel-title">What gets logged</p>
+              <ul class="panel-list">
+                <li>Answers are scored live across all five pathways.</li>
+                <li>Tie breaks use intention-driven answers before general preference answers.</li>
+                <li>Without a webhook, submissions are stored locally in the browser.</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="./config.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
