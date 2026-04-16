@@ -11,37 +11,59 @@
     <main class="shell">
       <header class="brand-bar">
         <div class="brand-lockup">
-          <div class="brand-mark">Tricycle</div>
+          <div class="brand-mark">Tricycle Pathways</div>
+          <div class="brand-meta">01. Entry Calibration System</div>
         </div>
+        <div class="brand-badge">Grid: 8px / Radius: 8px</div>
       </header>
 
       <section id="welcome-screen" class="screen screen-active">
-        <div class="welcome-stack">
-          <article class="welcome-hero">
-            <div id="hero-media" class="media-slot hero-media hero-media-large">
-              <div class="media-slot-copy">
-                <p class="media-slot-label">Image Placeholder</p>
-                <h2>Hero editorial image</h2>
-                <p>
-                  Replace with a quiet portrait, contemplative interior, or still-life image with
-                  enough negative space to feel calm.
-                </p>
-              </div>
+        <article class="landing-gallery-frame">
+          <div class="landing-gallery-top">
+            <div class="landing-gallery-header">
+              <p class="landing-gallery-label">Guided Entry Gallery</p>
+              <p class="landing-gallery-note">A visual archive of possible beginnings.</p>
+            </div>
+            <div class="landing-gallery-meta">
+              <span>Issue 01</span>
+              <span>Curated Selection</span>
+            </div>
+          </div>
+
+          <div id="landing-gallery-shell" class="landing-gallery-shell">
+            <div id="landing-gallery-track" class="landing-gallery-track">
+              <figure class="gallery-card gallery-card-image gallery-card-standard" data-gallery-card style="--card-image: url('./assets/images/cover/cover1.webp')"></figure>
+              <figure class="gallery-card gallery-card-image gallery-card-standard" data-gallery-card style="--card-image: url('./assets/images/cover/cover13.webp')"></figure>
+              <figure class="gallery-card gallery-card-image gallery-card-featured" data-gallery-card data-gallery-featured style="--card-image: url('./assets/images/cover/cover3.webp')"></figure>
+              <figure class="gallery-card gallery-card-image gallery-card-standard" data-gallery-card style="--card-image: url('./assets/images/cover/cover14.webp')"></figure>
+              <figure class="gallery-card gallery-card-image gallery-card-standard" data-gallery-card style="--card-image: url('./assets/images/cover/cover7.webp')"></figure>
+              <figure class="gallery-card gallery-card-image gallery-card-standard" data-gallery-card style="--card-image: url('./assets/images/cover/cover11.webp')"></figure>
+            </div>
+          </div>
+
+          <div class="landing-gallery-bottom">
+            <div class="landing-gallery-copy">
+              <p class="landing-gallery-request">Request Access</p>
+              <h1>Find Your Tricycle Pathway</h1>
+              <p class="landing-gallery-description">
+                A short quiz that matches you to a starting path, a color family, and a small set
+                of physical cards.
+              </p>
             </div>
 
-            <div class="hero-copy hero-copy-stacked">
-              <h1>Find Your Tricycle Pathway</h1>
-              <p class="hero-text">
-                A short set of questions to help you find a meaningful place to begin with Tricycle's
-                teachings and practices.
-              </p>
-              <div class="hero-actions">
-                <button id="begin-quiz" class="button button-primary">Start Quiz</button>
-                <button id="jump-to-preview" class="button button-secondary">Preview a Pathway</button>
+            <div class="landing-gallery-actions">
+              <div class="landing-input-row">
+                <span class="landing-input-label">Pathway Entry</span>
+                <div class="landing-input-line">
+                  <button id="begin-quiz" class="landing-link-button" type="button">Start Quiz</button>
+                  <button id="jump-to-preview" class="landing-link-button" type="button">
+                    Preview Pathway
+                  </button>
+                </div>
               </div>
             </div>
-          </article>
-        </div>
+          </div>
+        </article>
       </section>
 
       <section id="quiz-screen" class="screen">
@@ -93,56 +115,178 @@
       </section>
 
       <section id="result-screen" class="screen">
-        <article class="result-stage">
-          <div class="result-stage-grid">
-            <div class="result-copy-column">
-              <div class="result-hero">
-                <p class="eyebrow">Your Tricycle Pathway</p>
-                <h2 id="result-title">Presence &amp; Mindfulness</h2>
-                <p id="result-summary" class="result-summary"></p>
-                <div class="result-actions">
-                  <button id="preview-week-one" class="button button-primary" type="button">
-                    Start Week 1
-                  </button>
-                  <button id="retake-quiz" class="button button-secondary" type="button">
-                    Retake Quiz
-                  </button>
-                </div>
-              </div>
-            </div>
+        <article class="result-stage result-specimen-stage">
+          <div class="result-stage-grid result-stage-grid-specimen">
+            <section class="result-specimen-copy">
+              <p class="eyebrow">Your Pathway</p>
+              <h2 id="result-title">Creativity &amp; Imagination</h2>
+              <p id="result-summary" class="result-summary"></p>
 
-            <div class="result-side-column">
-              <aside class="result-media-panel">
-                <div id="result-media-slot" class="media-slot result-media">
-                  <div class="media-slot-copy">
-                    <p class="media-slot-label">Pathway Image</p>
-                    <h3 id="result-visual-title">Editorial image</h3>
-                    <p id="result-visual-copy">Add a quiet image for this pathway.</p>
+              <div class="result-family-meta">
+                <span id="result-family-chip" class="result-family-chip">Saffron Family</span>
+                <p id="result-family-note" class="result-family-note">
+                  Look for the saffron family in the deck.
+                </p>
+              </div>
+
+              <div class="result-actions">
+                <button id="preview-week-one" class="button button-primary" type="button">
+                  Start with These Cards
+                </button>
+                <button id="retake-quiz" class="button button-secondary" type="button">
+                  Retake Quiz
+                </button>
+              </div>
+            </section>
+
+            <section class="specimen-panel" aria-label="Pathway calibration field">
+              <div class="specimen-frame">
+                <div class="specimen-frame-head">
+                  <span class="specimen-frame-meta">
+                    <span class="specimen-dot" aria-hidden="true"></span>
+                    <span id="specimen-head-title">Creativity Field</span>
+                  </span>
+                  <span id="specimen-head-set" class="specimen-status">Starter Set 03 / 11 / 18</span>
+                </div>
+
+                <div class="specimen-canvas">
+                  <div id="specimen-blob" class="specimen-blob" aria-hidden="true"></div>
+                </div>
+
+                <div class="specimen-frame-foot">
+                  <div>
+                    <span class="specimen-label">Field Tone</span>
+                    <strong id="specimen-tone">Saffron / Peach / Rose</strong>
+                  </div>
+                  <div>
+                    <span class="specimen-label">Card Family</span>
+                    <strong id="specimen-family">Creativity &amp; Imagination</strong>
+                  </div>
+                  <div>
+                    <span class="specimen-label">Starting Cards</span>
+                    <strong id="specimen-count">03 / 11 / 18</strong>
                   </div>
                 </div>
-              </aside>
-            </div>
+              </div>
+            </section>
+
+            <aside class="result-card-preview" aria-label="Recommended cards preview">
+              <p class="panel-title">Recommended Cards</p>
+              <div id="result-card-stack" class="result-card-stack"></div>
+              <p id="result-card-stack-note" class="result-card-stack-note">
+                Start with three cards from the saffron family.
+              </p>
+            </aside>
           </div>
         </article>
 
-        <section class="result-continue">
-          <div class="result-continue-intro">
-            <p class="panel-title">Continue Beyond Week 1</p>
-            <h3 class="result-continue-heading">Two optional ways to continue when you are ready.</h3>
+        <section id="result-card-detail" class="result-card-detail">
+          <div class="result-card-detail-head">
+            <p class="panel-title">Start with These Cards</p>
+            <h3 id="result-card-detail-title" class="result-card-detail-title">
+              Three cards to begin your first week.
+            </h3>
+            <p id="result-card-detail-copy" class="result-card-detail-copy">
+              Look for the saffron family in the deck and begin with one card each day.
+            </p>
           </div>
 
-          <div class="extension-grid">
-            <article class="extension-card">
-              <div class="mini-visual" id="deck-visual"></div>
-              <h3 id="deck-title">Pocket Deck</h3>
-              <p id="deck-copy"></p>
-            </article>
-            <article class="extension-card">
-              <div class="mini-visual" id="event-visual"></div>
-              <h3 id="event-title">Intro Week</h3>
-              <p id="event-copy"></p>
-            </article>
+          <div id="result-card-grid" class="result-card-grid"></div>
+
+          <div class="deck-index-strip" aria-label="Deck index">
+            <span class="deck-index-label">Deck Index</span>
+            <span id="deck-index-family" class="deck-index-token">Creativity &amp; Imagination</span>
+            <span id="deck-index-count" class="deck-index-token">3 starting cards</span>
           </div>
+        </section>
+
+        <section id="result-online-section" class="journey-section">
+          <div class="journey-section-head">
+            <p class="panel-title">Start Online</p>
+            <h3 class="journey-section-title">A few digital steps before the deck enters daily life.</h3>
+          </div>
+
+          <div id="online-grid" class="journey-grid journey-grid-three"></div>
+
+          <div class="journey-section-actions">
+            <button id="open-week-one-email" class="button button-secondary" type="button">
+              Preview Week 1 Email
+            </button>
+            <button id="go-to-deck-intro" class="button button-primary" type="button">
+              See the Physical Set
+            </button>
+          </div>
+        </section>
+
+        <section id="deck-intro-section" class="journey-section">
+          <div class="journey-two-column">
+            <div class="journey-copy-block">
+              <p class="panel-title">A Physical Extension</p>
+              <h3 id="deck-intro-title" class="journey-section-title">
+                A Physical Extension of Your Pathway
+              </h3>
+              <p id="deck-intro-copy" class="journey-copy-text">
+                Cards, prompts, and packaging work together as a daily ritual system shaped around your pathway.
+              </p>
+              <div id="deck-intro-tags" class="journey-tag-row"></div>
+              <button id="go-to-purchase" class="button button-primary" type="button">
+                Get It Online or In Person
+              </button>
+            </div>
+
+            <div id="deck-intro-visual" class="mini-visual journey-visual" aria-label="Matching deck visual">
+              <div class="mini-visual-copy">
+                <p class="media-slot-label">Physical Set</p>
+                <p>Your pathway-matched cards and holder appear here.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="purchase-section" class="journey-section">
+          <div class="journey-section-head">
+            <p class="panel-title">Get It Online or In Person</p>
+            <h3 class="journey-section-title">The same pathway can move through website, store, and event touchpoints.</h3>
+          </div>
+
+          <div id="purchase-grid" class="journey-grid journey-grid-two"></div>
+          <p id="purchase-note" class="journey-inline-note"></p>
+
+          <div class="journey-section-actions">
+            <button id="go-to-daily" class="button button-primary" type="button">
+              Use It in Daily Life
+            </button>
+          </div>
+        </section>
+
+        <section id="daily-integration-section" class="journey-section">
+          <div class="journey-two-column">
+            <div class="journey-copy-block">
+              <p class="panel-title">Use It in Daily Life</p>
+              <h3 id="daily-title" class="journey-section-title">Daily practice becomes tangible here.</h3>
+              <p id="daily-copy" class="journey-copy-text"></p>
+              <div id="daily-steps" class="journey-step-grid"></div>
+              <button id="go-to-deeper" class="button button-primary" type="button">
+                Go Deeper
+              </button>
+            </div>
+
+            <div id="daily-visual" class="mini-visual journey-visual" aria-label="Daily use visual">
+              <div class="mini-visual-copy">
+                <p class="media-slot-label">Daily Ritual</p>
+                <p>A lived scene of the deck entering everyday practice appears here.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="go-deeper-section" class="journey-section">
+          <div class="journey-section-head">
+            <p class="panel-title">Go Deeper</p>
+            <h3 class="journey-section-title">The pathway loops back into more content, events, and future drops.</h3>
+          </div>
+
+          <div id="deeper-grid" class="journey-grid journey-grid-three"></div>
         </section>
       </section>
 
@@ -157,6 +301,21 @@
               <button id="back-to-result" class="button button-secondary" type="button">
                 Back to Result
               </button>
+            </div>
+
+            <div class="email-meta-bar">
+              <div class="email-meta-row">
+                <span class="email-meta-label">From</span>
+                <strong>Tricycle Pathways</strong>
+              </div>
+              <div class="email-meta-row">
+                <span class="email-meta-label">To</span>
+                <strong>You</strong>
+              </div>
+              <div class="email-meta-row">
+                <span class="email-meta-label">Subject</span>
+                <strong id="email-meta-subject"></strong>
+              </div>
             </div>
 
             <div id="email-media-slot" class="media-slot email-media">
@@ -188,46 +347,10 @@
               </div>
             </div>
           </article>
-
-          <aside class="capture-panel">
-            <div class="panel-card">
-              <p class="panel-title">Save this pathway</p>
-              <p class="capture-copy">
-                This form can post the pathway result and quiz answers into a Google Sheet once a
-                webhook URL is configured.
-              </p>
-
-              <form id="capture-form" class="capture-form">
-                <label>
-                  <span>Name</span>
-                  <input id="name-input" name="name" type="text" placeholder="Optional" />
-                </label>
-                <label>
-                  <span>Email</span>
-                  <input id="email-input" name="email" type="email" placeholder="Optional" />
-                </label>
-                <button class="button button-primary button-full" type="submit">
-                  Save Result
-                </button>
-              </form>
-
-              <p id="submit-status" class="submit-status" role="status"></p>
-            </div>
-
-            <div class="panel-card">
-              <p class="panel-title">What gets logged</p>
-              <ul class="panel-list">
-                <li>Answers are scored live across all five pathways.</li>
-                <li>Tie breaks use intention-driven answers before general preference answers.</li>
-                <li>Without a webhook, submissions are stored locally in the browser.</li>
-              </ul>
-            </div>
-          </aside>
         </div>
       </section>
     </main>
 
-    <script src="./config.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

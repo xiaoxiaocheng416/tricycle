@@ -1,4 +1,4 @@
-const HERO_IMAGE = "./assets/images/1.jpg";
+const HERO_IMAGE = "./assets/images/new/tri2.jpg";
 
 const pathways = {
   mindfulness: {
@@ -7,16 +7,16 @@ const pathways = {
       "You seem to be looking for a quieter, steadier place to begin. This path starts with attention, breath, and a simple daily rhythm.",
     why:
       "Your answers leaned toward calm, presence, and routines that feel manageable. Rather than starting with theory, this path begins with felt experience and repetition.",
-    resultImage: "./assets/images/1.jpg",
+    resultImage: "./assets/images/new/tri5.jpg",
     deckTitle: "Pocket Deck",
     deckCopy:
       "A small set of prompts for breath, grounding, and brief moments of attention throughout the day.",
-    deckImage: "./assets/images/1.jpg",
+    deckImage: "./assets/images/cards.png",
     eventTitle: "Intro Week",
     eventCopy:
       "A beginner-friendly meditation and conversation session for people who want a calm first step.",
-    eventImage: "./assets/images/5.jpg",
-    emailImage: "./assets/images/1.jpg",
+    eventImage: "./assets/images/new/tri6.jpg",
+    emailImage: "./assets/images/new/tri5.jpg",
     emailVisualTitle: "Week 1 visual direction",
     emailVisualCopy:
       "A minimal image with room to breathe works best here: tea, notebook, incense, or a quiet interior with soft contrast.",
@@ -44,16 +44,16 @@ const pathways = {
       "You seem drawn to Buddhism as a way of relating more gently to yourself and to other people. This path begins with care, repair, and connection.",
     why:
       "Your answers pointed toward kindness, relationship, and the desire to reduce suffering with other people, not just alone.",
-    resultImage: "./assets/images/5.jpg",
+    resultImage: "./assets/images/new/tri6.jpg",
     deckTitle: "Pocket Deck",
     deckCopy:
       "A short set of prompts for loving-kindness, repair, and softer conversations in everyday life.",
-    deckImage: "./assets/images/5.jpg",
+    deckImage: "./assets/images/cards.png",
     eventTitle: "Intro Week",
     eventCopy:
       "A welcoming session of loving-kindness practice and guided conversation for curious first-timers.",
-    eventImage: "./assets/images/3.jpg",
-    emailImage: "./assets/images/5.jpg",
+    eventImage: "./assets/images/new/tri5.jpg",
+    emailImage: "./assets/images/new/tri6.jpg",
     emailVisualTitle: "Week 1 visual direction",
     emailVisualCopy:
       "Choose an image that feels relational and grounded: a cup passed across a table, notebooks, or a softly lit gathering.",
@@ -81,16 +81,16 @@ const pathways = {
       "You seem to be seeking belonging in the wider world. This path begins with place, relationship, and the feeling that nothing stands alone.",
     why:
       "Your answers leaned toward nature, walking, and understanding your place in a larger field of life. This path starts with relationship to the world around you.",
-    resultImage: "./assets/images/3.jpg",
+    resultImage: "./assets/images/new/tri5.jpg",
     deckTitle: "Pocket Deck",
     deckCopy:
       "A portable set of walking meditations, nature prompts, and reflections on interdependence.",
-    deckImage: "./assets/images/2.jpg",
+    deckImage: "./assets/images/cards.png",
     eventTitle: "Intro Week",
     eventCopy:
       "A guided outdoor session linking contemplative attention, ecology, and conversation about interdependence.",
-    eventImage: "./assets/images/3.jpg",
-    emailImage: "./assets/images/3.jpg",
+    eventImage: "./assets/images/new/tri8.jpg",
+    emailImage: "./assets/images/new/tri5.jpg",
     emailVisualTitle: "Week 1 visual direction",
     emailVisualCopy:
       "Use a simple natural image with tonal depth: branches, stones, path edges, or a detail that suggests interdependence.",
@@ -118,16 +118,46 @@ const pathways = {
       "You seem to approach spirituality through expression. This path begins with art, writing, and contemplative making as real doorways into practice.",
     why:
       "Your answers favored inspiration, making, and lived exploration. This path gives you an entry point that feels embodied, curious, and visually alive.",
-    resultImage: "./assets/images/2.jpg",
+    familyName: "Saffron Family",
+    familyNote: "Look for the saffron family in the deck.",
+    familyTone: "Saffron / Peach / Rose",
+    familyIndex: "C_03.11.18",
+    specimenObjectId: "OBJ.004_CREA_FIELD",
+    specimenStatus: "SYNC_STATUS: CALIBRATED",
+    stackNote: "Start with three cards from the saffron family.",
+    detailTitle: "Three cards to begin your first week.",
+    detailCopy:
+      "Start with one card a day and let making become a quiet form of attention.",
+    startCards: [
+      {
+        number: "03",
+        kind: "Prompt",
+        title: "Open the Page",
+        copy: "Make one small mark, line, or note before you decide what it is for."
+      },
+      {
+        number: "11",
+        kind: "Practice",
+        title: "Follow the Gesture",
+        copy: "Set a timer for eight minutes and keep your attention on texture, pace, and breath while you make."
+      },
+      {
+        number: "18",
+        kind: "Journal",
+        title: "Keep the Trace",
+        copy: "Write a few sentences on what shifted when expression came before explanation."
+      }
+    ],
+    resultImage: "./assets/images/new/他日.jpg",
     deckTitle: "Pocket Deck",
     deckCopy:
       "A set of reflective prompts, drawing cues, and small rituals that turn ideas into tangible creative moments.",
-    deckImage: "./assets/images/6.jpg",
+    deckImage: "./assets/images/cards.png",
     eventTitle: "Intro Week",
     eventCopy:
       "A beginner-friendly session of contemplative drawing, mindful making, and conversation about creativity as practice.",
-    eventImage: "./assets/images/2.jpg",
-    emailImage: "./assets/images/2.jpg",
+    eventImage: "./assets/images/new/tri7.jpg",
+    emailImage: "./assets/images/new/他日.jpg",
     emailVisualTitle: "Week 1 visual direction",
     emailVisualCopy:
       "Choose an image with strong composition and open space: notebook, pencil, folded paper, brush, or a ritual worktable.",
@@ -155,16 +185,16 @@ const pathways = {
       "You seem ready for structure. This path offers a trustworthy way into core teachings without having to sort through the whole archive on your own.",
     why:
       "Your answers leaned toward understanding, philosophy, and explicit questions about Buddhist teaching itself. This path gives you a clearer sequence to begin from.",
-    resultImage: "./assets/images/4.jpg",
+    resultImage: "./assets/images/new/tri4.jpg",
     deckTitle: "Pocket Deck",
     deckCopy:
       "A concise set of concepts, definitions, and small practices that make early teachings easier to enter.",
-    deckImage: "./assets/images/4.jpg",
+    deckImage: "./assets/images/cards.png",
     eventTitle: "Intro Week",
     eventCopy:
       "A welcoming first session on the Four Noble Truths, suffering, and practice for people who want depth without pressure.",
-    eventImage: "./assets/images/6.jpg",
-    emailImage: "./assets/images/4.jpg",
+    eventImage: "./assets/images/new/tri4.jpg",
+    emailImage: "./assets/images/new/tri4.jpg",
     emailVisualTitle: "Week 1 visual direction",
     emailVisualCopy:
       "Choose a restrained image that signals clarity: open pages, notes, a single text, or a simple teaching environment.",
@@ -192,7 +222,7 @@ const questions = [
   {
     prompt: "When life feels overwhelming, what helps you most?",
     note: "Choose the response that feels most natural, not the one that sounds most spiritual.",
-    image: "./assets/images/1.jpg",
+    image: "./assets/images/new/tri5.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 1 image",
     visualCopy:
@@ -209,7 +239,7 @@ const questions = [
     prompt: "What draws you to spiritual practice right now?",
     note: "This question shapes the emotional center of the pathway you receive.",
     priority: true,
-    image: "./assets/images/8.jpg",
+    image: "./assets/images/new/tri2.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 2 image",
     visualCopy:
@@ -225,7 +255,7 @@ const questions = [
   {
     prompt: "How do you learn best?",
     note: "Tricycle can meet people through practice, dialogue, ritual, and study.",
-    image: "./assets/images/4.jpg",
+    image: "./assets/images/new/tri4.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 3 image",
     visualCopy:
@@ -242,7 +272,7 @@ const questions = [
     prompt: "Which question feels most urgent for you?",
     note: "This helps the pathway feel personally relevant rather than generic.",
     priority: true,
-    image: "./assets/images/7.jpg",
+    image: "./assets/images/new/tri6.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 4 image",
     visualCopy:
@@ -258,7 +288,7 @@ const questions = [
   {
     prompt: "Which activity sounds most appealing right now?",
     note: "The pathway should feel lived, not just informational.",
-    image: "./assets/images/6.jpg",
+    image: "./assets/images/new/tri7.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 5 image",
     visualCopy:
@@ -275,7 +305,7 @@ const questions = [
     prompt: "What do you seek most right now?",
     note: "Your final answer helps shape the tone of your first week inside Tricycle.",
     priority: true,
-    image: "./assets/images/3.jpg",
+    image: "./assets/images/new/tri8.jpg",
     visualLabel: "Image Placeholder",
     visualTitle: "Question 6 image",
     visualCopy:
@@ -290,10 +320,197 @@ const questions = [
   }
 ];
 
+const pathwayOrder = ["mindfulness", "compassion", "interconnection", "creativity", "foundations"];
+
+function getNextPathKey(currentKey) {
+  const currentIndex = pathwayOrder.indexOf(currentKey);
+  if (currentIndex === -1) {
+    return pathwayOrder[0];
+  }
+  return pathwayOrder[(currentIndex + 1) % pathwayOrder.length];
+}
+
+function ensureJourneyContent() {
+  pathwayOrder.forEach((key) => {
+    const pathway = pathways[key];
+    const nextKey = getNextPathKey(key);
+    const nextPathway = pathways[nextKey];
+
+    pathway.engagementCards =
+      pathway.engagementCards ||
+      [
+        {
+          eyebrow: "Curated Article",
+          title: pathway.plan[1].title,
+          copy: `Begin online with one focused Tricycle reading selected for ${pathway.title.toLowerCase()}.`,
+          ctaLabel: "See starting cards",
+          action: "scroll",
+          target: "result-card-detail"
+        },
+        {
+          eyebrow: "Week 1 Email",
+          title: pathway.emailSubject,
+          copy: "A gentle onboarding email that keeps the pathway focused instead of overwhelming.",
+          ctaLabel: "Preview email",
+          action: "email"
+        },
+        {
+          eyebrow: "Daily Prompt",
+          title: pathway.plan[0].title,
+          copy: "One small practice you can try today before committing to anything larger.",
+          ctaLabel: "See the physical set",
+          action: "scroll",
+          target: "deck-intro-section"
+        }
+      ];
+
+    pathway.deckIntro =
+      pathway.deckIntro ||
+      {
+        title: `A Physical Extension of ${pathway.title}`,
+        copy: "Cards, prompts, and packaging work together as a daily ritual system shaped around your pathway.",
+        image: pathway.deckImage,
+        tags: [
+          pathway.familyName || `${pathway.title} Family`,
+          "Cards + prompts + packaging",
+          "Daily ritual system"
+        ]
+      };
+
+    pathway.purchaseOptions =
+      pathway.purchaseOptions ||
+      [
+        {
+          eyebrow: "Online",
+          title: "Buy from Tricycle",
+          copy: "Order the deck on the Tricycle site and continue from quiz result to physical practice without leaving the pathway.",
+          ctaLabel: "Continue to daily use",
+          action: "scroll",
+          target: "daily-integration-section"
+        },
+        {
+          eyebrow: "In Person",
+          title: "Find it in a studio, bookstore, or event",
+          copy: "The same deck can be discovered through yoga studios, wellness spaces, independent bookstores, and event tables.",
+          ctaLabel: "See daily ritual",
+          action: "scroll",
+          target: "daily-integration-section"
+        }
+      ];
+
+    pathway.purchaseNote =
+      pathway.purchaseNote ||
+      "Seen via QR, flyer, retail display, or community event. The website and the physical deck should reinforce each other.";
+
+    pathway.dailyIntegration =
+      pathway.dailyIntegration ||
+      {
+        title: "Use it in daily life",
+        copy: "The deck is meant to sit in the everyday environment and turn the pathway into a repeatable routine rather than a one-time click.",
+        image: pathway.resultImage,
+        steps: [
+          {
+            number: "01",
+            title: "Pick one card",
+            copy: "Choose one prompt from the deck without trying to optimize or complete the whole system."
+          },
+          {
+            number: "02",
+            title: "Practice for 3–5 minutes",
+            copy: "Use the card as a small ritual: read, walk, draw, breathe, or reflect."
+          },
+          {
+            number: "03",
+            title: "Return to Tricycle for more",
+            copy: "Come back online for a related article, an email sequence, or the next pathway."
+          }
+        ]
+      };
+
+    pathway.retentionLinks =
+      pathway.retentionLinks ||
+      [
+        {
+          eyebrow: "Next Pathway",
+          title: `Explore ${nextPathway.title}`,
+          copy: "Preview another way into Buddhist-inspired practice and see how the system expands beyond one result.",
+          ctaLabel: "Preview pathway",
+          action: "preview-path",
+          pathKey: nextKey
+        },
+        {
+          eyebrow: "Community",
+          title: "Join an event or in-person moment",
+          copy: "See how the pathway can appear in studios, bookstore tables, or small guided gatherings.",
+          ctaLabel: "See buy options",
+          action: "scroll",
+          target: "purchase-section"
+        },
+        {
+          eyebrow: "Seasonal Drops",
+          title: "Get future emails and deck updates",
+          copy: "Use digital follow-up to discover new pathways, future drops, and other ways to go deeper.",
+          ctaLabel: "Preview email",
+          action: "email"
+        }
+      ];
+  });
+}
+
+ensureJourneyContent();
+
 const state = {
   currentQuestion: 0,
   answers: Array(questions.length).fill(null),
   resultKey: null
+};
+
+const specimenFamilies = {
+  mindfulness: {
+    accent: "#7d9780",
+    accentSoft: "#dce7d8",
+    tone: "Sage / Mist / Stone",
+    objectId: "OBJ.001_MINDFIELD",
+    indexPrefix: "M",
+    blob:
+      "radial-gradient(circle at 35% 38%, rgba(239, 251, 232, 0.94) 0, rgba(239, 251, 232, 0.94) 14%, transparent 40%), radial-gradient(circle at 67% 30%, rgba(221, 233, 219, 0.9) 0, rgba(221, 233, 219, 0.9) 16%, transparent 44%), radial-gradient(circle at 58% 70%, rgba(197, 214, 194, 0.86) 0, rgba(197, 214, 194, 0.86) 18%, transparent 44%), linear-gradient(135deg, rgba(241, 247, 238, 0.96), rgba(213, 226, 210, 0.96))"
+  },
+  compassion: {
+    accent: "#ca7a74",
+    accentSoft: "#f7dfdb",
+    tone: "Rose / Clay / Blush",
+    objectId: "OBJ.002_COMPFIELD",
+    indexPrefix: "R",
+    blob:
+      "radial-gradient(circle at 34% 40%, rgba(255, 231, 224, 0.94) 0, rgba(255, 231, 224, 0.94) 14%, transparent 40%), radial-gradient(circle at 65% 32%, rgba(248, 208, 206, 0.9) 0, rgba(248, 208, 206, 0.9) 17%, transparent 45%), radial-gradient(circle at 58% 72%, rgba(244, 190, 195, 0.86) 0, rgba(244, 190, 195, 0.86) 18%, transparent 44%), linear-gradient(135deg, rgba(255, 242, 239, 0.96), rgba(245, 217, 214, 0.96))"
+  },
+  interconnection: {
+    accent: "#6c8f86",
+    accentSoft: "#dcebe6",
+    tone: "Moss / Aqua / Air",
+    objectId: "OBJ.003_INTERFIELD",
+    indexPrefix: "I",
+    blob:
+      "radial-gradient(circle at 32% 38%, rgba(223, 246, 238, 0.94) 0, rgba(223, 246, 238, 0.94) 14%, transparent 40%), radial-gradient(circle at 67% 30%, rgba(197, 227, 220, 0.9) 0, rgba(197, 227, 220, 0.9) 16%, transparent 44%), radial-gradient(circle at 56% 72%, rgba(176, 208, 201, 0.86) 0, rgba(176, 208, 201, 0.86) 18%, transparent 44%), linear-gradient(135deg, rgba(237, 248, 245, 0.96), rgba(208, 230, 224, 0.96))"
+  },
+  creativity: {
+    accent: "#dd8c43",
+    accentSoft: "#fff0df",
+    tone: "Saffron / Peach / Rose",
+    objectId: "OBJ.004_CREA_FIELD",
+    indexPrefix: "C",
+    blob:
+      "radial-gradient(circle at 31% 40%, rgba(255, 247, 189, 0.95) 0, rgba(255, 247, 189, 0.95) 16%, transparent 41%), radial-gradient(circle at 66% 32%, rgba(253, 220, 174, 0.92) 0, rgba(253, 220, 174, 0.92) 17%, transparent 43%), radial-gradient(circle at 62% 69%, rgba(245, 191, 220, 0.88) 0, rgba(245, 191, 220, 0.88) 18%, transparent 44%), radial-gradient(circle at 46% 22%, rgba(227, 206, 255, 0.84) 0, rgba(227, 206, 255, 0.84) 14%, transparent 38%), radial-gradient(circle at 49% 78%, rgba(210, 243, 205, 0.88) 0, rgba(210, 243, 205, 0.88) 14%, transparent 40%), linear-gradient(135deg, rgba(255, 242, 224, 0.98), rgba(255, 225, 236, 0.95))"
+  },
+  foundations: {
+    accent: "#a88153",
+    accentSoft: "#efe2cf",
+    tone: "Stone / Parchment / Gold",
+    objectId: "OBJ.005_FOUND_FIELD",
+    indexPrefix: "F",
+    blob:
+      "radial-gradient(circle at 34% 40%, rgba(247, 235, 207, 0.94) 0, rgba(247, 235, 207, 0.94) 14%, transparent 40%), radial-gradient(circle at 64% 31%, rgba(230, 214, 183, 0.9) 0, rgba(230, 214, 183, 0.9) 16%, transparent 44%), radial-gradient(circle at 56% 71%, rgba(215, 194, 159, 0.86) 0, rgba(215, 194, 159, 0.86) 17%, transparent 43%), linear-gradient(135deg, rgba(248, 241, 228, 0.97), rgba(227, 214, 190, 0.96))"
+  }
 };
 
 const screens = {
@@ -302,6 +519,11 @@ const screens = {
   result: document.getElementById("result-screen"),
   email: document.getElementById("email-screen")
 };
+
+const landingGalleryShell = document.getElementById("landing-gallery-shell");
+const landingGalleryTrack = document.getElementById("landing-gallery-track");
+let landingGalleryCards = Array.from(document.querySelectorAll("[data-gallery-card]"));
+let landingGalleryFeatured = document.querySelector("[data-gallery-featured]");
 
 const questionKicker = document.getElementById("question-kicker");
 const questionPrompt = document.getElementById("question-prompt");
@@ -317,19 +539,40 @@ const questionVisualLabel = document.getElementById("question-visual-label");
 const questionVisualTitle = document.getElementById("question-visual-title");
 const questionVisualCopy = document.getElementById("question-visual-copy");
 
+const resultStage = document.querySelector(".result-specimen-stage");
 const resultTitle = document.getElementById("result-title");
 const resultSummary = document.getElementById("result-summary");
-const resultMediaSlot = document.getElementById("result-media-slot");
-const resultVisualTitle = document.getElementById("result-visual-title");
-const resultVisualCopy = document.getElementById("result-visual-copy");
-const deckTitle = document.getElementById("deck-title");
-const deckCopy = document.getElementById("deck-copy");
-const deckVisual = document.getElementById("deck-visual");
-const eventTitle = document.getElementById("event-title");
-const eventCopy = document.getElementById("event-copy");
-const eventVisual = document.getElementById("event-visual");
+const resultFamilyChip = document.getElementById("result-family-chip");
+const resultFamilyNote = document.getElementById("result-family-note");
+const specimenHeadTitle = document.getElementById("specimen-head-title");
+const specimenHeadSet = document.getElementById("specimen-head-set");
+const specimenBlob = document.getElementById("specimen-blob");
+const specimenTone = document.getElementById("specimen-tone");
+const specimenFamily = document.getElementById("specimen-family");
+const specimenCount = document.getElementById("specimen-count");
+const resultCardStack = document.getElementById("result-card-stack");
+const resultCardStackNote = document.getElementById("result-card-stack-note");
+const resultCardDetail = document.getElementById("result-card-detail");
+const resultCardDetailTitle = document.getElementById("result-card-detail-title");
+const resultCardDetailCopy = document.getElementById("result-card-detail-copy");
+const resultCardGrid = document.getElementById("result-card-grid");
+const deckIndexFamily = document.getElementById("deck-index-family");
+const deckIndexCount = document.getElementById("deck-index-count");
+const onlineGrid = document.getElementById("online-grid");
+const deckIntroTitle = document.getElementById("deck-intro-title");
+const deckIntroCopy = document.getElementById("deck-intro-copy");
+const deckIntroTags = document.getElementById("deck-intro-tags");
+const deckIntroVisual = document.getElementById("deck-intro-visual");
+const purchaseGrid = document.getElementById("purchase-grid");
+const purchaseNote = document.getElementById("purchase-note");
+const dailyTitle = document.getElementById("daily-title");
+const dailyCopy = document.getElementById("daily-copy");
+const dailyVisual = document.getElementById("daily-visual");
+const dailySteps = document.getElementById("daily-steps");
+const deeperGrid = document.getElementById("deeper-grid");
 
 const emailTitle = document.getElementById("email-title");
+const emailMetaSubject = document.getElementById("email-meta-subject");
 const emailSubject = document.getElementById("email-subject");
 const emailIntro = document.getElementById("email-intro");
 const emailMediaSlot = document.getElementById("email-media-slot");
@@ -338,10 +581,15 @@ const emailVisualCopy = document.getElementById("email-visual-copy");
 const practiceCopy = document.getElementById("practice-copy");
 const readingCopy = document.getElementById("reading-copy");
 const reflectionCopy = document.getElementById("reflection-copy");
-const captureForm = document.getElementById("capture-form");
-const submitStatus = document.getElementById("submit-status");
-const nameInput = document.getElementById("name-input");
-const emailInput = document.getElementById("email-input");
+
+const galleryState = {
+  active: false,
+  pointerId: null,
+  startX: 0,
+  startScroll: 0,
+  loopWidth: 0,
+  cloneSets: 2
+};
 
 function showScreen(screenKey) {
   const applyScreenChange = () => {
@@ -356,6 +604,12 @@ function showScreen(screenKey) {
   }
 
   window.scrollTo({ top: 0, behavior: "smooth" });
+
+  if (screenKey === "welcome") {
+    requestAnimationFrame(() => {
+      updateLandingGalleryDepth();
+    });
+  }
 }
 
 function setMediaImage(element, imagePath) {
@@ -376,6 +630,195 @@ function setMediaImage(element, imagePath) {
   if (element.classList.contains("mini-visual")) {
     element.classList.add("mini-visual-has-image");
   }
+}
+
+function updateLandingGalleryDepth() {
+  if (!landingGalleryShell || landingGalleryCards.length === 0) {
+    return;
+  }
+
+  const shellRect = landingGalleryShell.getBoundingClientRect();
+  const shellCenter = shellRect.left + shellRect.width / 2;
+  const distanceBase = Math.max(shellRect.width * 0.45, 1);
+  let closestCard = null;
+  let closestDistance = Number.POSITIVE_INFINITY;
+
+  landingGalleryCards.forEach((card) => {
+    const rect = card.getBoundingClientRect();
+    const cardCenter = rect.left + rect.width / 2;
+    const offset = (cardCenter - shellCenter) / distanceBase;
+    const clamped = Math.max(-1.35, Math.min(1.35, offset));
+    const absOffset = Math.abs(clamped);
+    const focus = Math.max(0, 1 - absOffset / 1.1);
+    const opacity = 1 - Math.min(absOffset * 0.34, 0.62);
+    card.style.setProperty("--offset", clamped.toFixed(3));
+    card.style.setProperty("--abs-offset", absOffset.toFixed(3));
+    card.style.setProperty("--focus", focus.toFixed(3));
+    card.style.opacity = opacity.toFixed(3);
+    card.style.zIndex = String(100 + Math.round(focus * 100));
+
+    if (absOffset < closestDistance) {
+      closestDistance = absOffset;
+      closestCard = card;
+    }
+  });
+
+  landingGalleryCards.forEach((card) => {
+    if (card === closestCard) {
+      card.dataset.galleryCurrent = "true";
+    } else {
+      delete card.dataset.galleryCurrent;
+    }
+  });
+}
+
+function wrapLandingGalleryScroll() {
+  if (!landingGalleryShell || !galleryState.loopWidth) {
+    return;
+  }
+
+  const loopWidth = galleryState.loopWidth;
+  const shiftAmount = loopWidth * galleryState.cloneSets;
+  const leftThreshold = loopWidth * Math.max(galleryState.cloneSets - 1, 0.5);
+  const rightThreshold = loopWidth * (galleryState.cloneSets + 1);
+
+  if (landingGalleryShell.scrollLeft < leftThreshold) {
+    landingGalleryShell.scrollLeft += shiftAmount;
+  } else if (landingGalleryShell.scrollLeft > rightThreshold) {
+    landingGalleryShell.scrollLeft -= shiftAmount;
+  }
+}
+
+function buildLoopingGallery() {
+  if (!landingGalleryTrack || landingGalleryTrack.dataset.loopReady === "true") {
+    return;
+  }
+
+  const originals = Array.from(landingGalleryTrack.children);
+  const prependFragment = document.createDocumentFragment();
+  const appendFragment = document.createDocumentFragment();
+
+  for (let copyIndex = 0; copyIndex < galleryState.cloneSets; copyIndex += 1) {
+    originals.forEach((card) => {
+      const prependClone = card.cloneNode(true);
+      prependClone.dataset.galleryClone = "true";
+      prependClone.removeAttribute("data-gallery-featured");
+      prependClone.setAttribute("aria-hidden", "true");
+      prependFragment.appendChild(prependClone);
+
+      const appendClone = card.cloneNode(true);
+      appendClone.dataset.galleryClone = "true";
+      appendClone.removeAttribute("data-gallery-featured");
+      appendClone.setAttribute("aria-hidden", "true");
+      appendFragment.appendChild(appendClone);
+    });
+  }
+
+  landingGalleryTrack.insertBefore(prependFragment, landingGalleryTrack.firstChild);
+  landingGalleryTrack.appendChild(appendFragment);
+  landingGalleryTrack.dataset.loopReady = "true";
+
+  landingGalleryCards = Array.from(landingGalleryTrack.querySelectorAll("[data-gallery-card]"));
+  landingGalleryFeatured = landingGalleryTrack.querySelector("[data-gallery-featured]");
+  galleryState.loopWidth =
+    landingGalleryTrack.querySelector("[data-gallery-card]:not([data-gallery-clone])")?.offsetLeft ||
+    0;
+}
+
+function centerLandingGallery() {
+  if (!landingGalleryShell || !landingGalleryFeatured) {
+    return;
+  }
+
+  const target =
+    landingGalleryFeatured.offsetLeft -
+    (landingGalleryShell.clientWidth - landingGalleryFeatured.clientWidth) / 2;
+  landingGalleryShell.scrollLeft = Math.max(target, 0);
+  updateLandingGalleryDepth();
+}
+
+function initLandingGallery() {
+  if (!landingGalleryShell || !landingGalleryTrack) {
+    return;
+  }
+
+  buildLoopingGallery();
+
+  let frame = null;
+  const scheduleDepthUpdate = () => {
+    if (frame) {
+      cancelAnimationFrame(frame);
+    }
+    frame = requestAnimationFrame(() => {
+      wrapLandingGalleryScroll();
+      updateLandingGalleryDepth();
+      frame = null;
+    });
+  };
+
+  landingGalleryShell.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) {
+      return;
+    }
+    galleryState.active = true;
+    galleryState.pointerId = event.pointerId;
+    galleryState.startX = event.clientX;
+    galleryState.startScroll = landingGalleryShell.scrollLeft;
+    landingGalleryShell.classList.add("is-dragging");
+    landingGalleryShell.setPointerCapture(event.pointerId);
+  });
+
+  landingGalleryShell.addEventListener("pointermove", (event) => {
+    if (!galleryState.active) {
+      return;
+    }
+    const deltaX = event.clientX - galleryState.startX;
+    landingGalleryShell.scrollLeft = galleryState.startScroll - deltaX;
+    scheduleDepthUpdate();
+  });
+
+  const endDrag = (event) => {
+    if (!galleryState.active) {
+      return;
+    }
+    galleryState.active = false;
+    landingGalleryShell.classList.remove("is-dragging");
+    if (galleryState.pointerId !== null) {
+      try {
+        landingGalleryShell.releasePointerCapture(galleryState.pointerId);
+      } catch (error) {
+        // Ignore cases where the pointer capture has already been released.
+      }
+    }
+    galleryState.pointerId = null;
+    scheduleDepthUpdate();
+  };
+
+  landingGalleryShell.addEventListener("pointerup", endDrag);
+  landingGalleryShell.addEventListener("pointercancel", endDrag);
+  landingGalleryShell.addEventListener("pointerleave", endDrag);
+  landingGalleryShell.addEventListener(
+    "wheel",
+    (event) => {
+      const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+      if (!delta) {
+        return;
+      }
+      event.preventDefault();
+      landingGalleryShell.scrollLeft += delta;
+      scheduleDepthUpdate();
+    },
+    { passive: false }
+  );
+  landingGalleryShell.addEventListener("scroll", scheduleDepthUpdate, { passive: true });
+  window.addEventListener("resize", () => {
+    galleryState.loopWidth =
+      landingGalleryTrack.querySelector("[data-gallery-card]:not([data-gallery-clone])")
+        ?.offsetLeft || galleryState.loopWidth;
+    centerLandingGallery();
+  });
+
+  centerLandingGallery();
 }
 
 function renderQuestion() {
@@ -463,30 +906,154 @@ function determinePathway(scores) {
   return sorted[0][0];
 }
 
+function defaultStartCards(pathway, resultKey) {
+  return pathway.plan.slice(0, 3).map((item, index) => ({
+    number: `0${index + 1}`,
+    kind: index === 0 ? "Practice" : index === 1 ? "Reading" : "Journal",
+    title: item.title,
+    copy: item.copy,
+    family: pathway.title,
+    code: `${specimenFamilies[resultKey]?.indexPrefix || "X"}${index + 1}`
+  }));
+}
+
+function getSpecimenData(resultKey, pathway) {
+  const family = specimenFamilies[resultKey] || specimenFamilies.foundations;
+  const startCards = pathway.startCards || defaultStartCards(pathway, resultKey);
+  const cardNumbers = startCards.map((card) => card.number).join(", ");
+
+  return {
+    familyName: pathway.familyName || `${pathway.title} Family`,
+    familyNote: pathway.familyNote || `Look for the matching family in the deck.`,
+    familyTone: pathway.familyTone || family.tone,
+    headTitle: `${pathway.title} Field`,
+    starterSet: `Starter Set ${startCards.map((card) => card.number).join(" / ")}`,
+    familyCards: startCards.map((card) => card.number).join(" / "),
+    stackNote: pathway.stackNote || `Start with Cards ${cardNumbers}.`,
+    detailTitle: pathway.detailTitle || "Three cards to begin your first week.",
+    detailCopy:
+      pathway.detailCopy || "Start with one card each day and let the deck shape the first rhythm of practice.",
+    palette: family,
+    startCards
+  };
+}
+
+function applySpecimenPalette(palette) {
+  screens.result.style.setProperty("--family-accent", palette.accent);
+  screens.result.style.setProperty("--family-accent-soft", palette.accentSoft);
+  resultStage.style.setProperty("--family-accent", palette.accent);
+  resultStage.style.setProperty("--family-accent-soft", palette.accentSoft);
+  specimenBlob.style.backgroundImage = palette.blob;
+}
+
+function cardMarkup(card, familyName, variant) {
+  return `
+    <article class="spec-card spec-card-${variant}">
+      <div class="spec-card-head">
+        <span class="spec-card-number">Card ${card.number}</span>
+        <span class="spec-card-kind">${card.kind}</span>
+      </div>
+      <div class="spec-card-field" aria-hidden="true"></div>
+      <div class="spec-card-body">
+        <p class="spec-card-family">${familyName}</p>
+        <h4>${card.title}</h4>
+        ${variant === "detail" ? `<p class="spec-card-copy">${card.copy}</p>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function journeyCardMarkup(item) {
+  const buttonMarkup = item.ctaLabel
+    ? `<button
+        class="button button-secondary button-inline"
+        type="button"
+        ${item.action === "email" ? 'data-open-email="true"' : ""}
+        ${item.action === "scroll" ? `data-scroll-target="${item.target}"` : ""}
+        ${item.action === "preview-path" ? `data-preview-path="${item.pathKey}"` : ""}
+      >${item.ctaLabel}</button>`
+    : "";
+
+  return `
+    <article class="journey-card">
+      <p class="journey-card-kicker">${item.eyebrow}</p>
+      <h4 class="journey-card-title">${item.title}</h4>
+      <p class="journey-card-copy">${item.copy}</p>
+      ${buttonMarkup}
+    </article>
+  `;
+}
+
+function journeyStepMarkup(step) {
+  return `
+    <article class="journey-step">
+      <span class="journey-step-number">${step.number}</span>
+      <div class="journey-step-body">
+        <h4>${step.title}</h4>
+        <p>${step.copy}</p>
+      </div>
+    </article>
+  `;
+}
+
+function renderJourneySections(pathway) {
+  onlineGrid.innerHTML = pathway.engagementCards.map(journeyCardMarkup).join("");
+
+  deckIntroTitle.textContent = pathway.deckIntro.title;
+  deckIntroCopy.textContent = pathway.deckIntro.copy;
+  deckIntroTags.innerHTML = pathway.deckIntro.tags
+    .map((tag) => `<span class="journey-tag">${tag}</span>`)
+    .join("");
+  setMediaImage(deckIntroVisual, pathway.deckIntro.image);
+
+  purchaseGrid.innerHTML = pathway.purchaseOptions.map(journeyCardMarkup).join("");
+  purchaseNote.textContent = pathway.purchaseNote;
+
+  dailyTitle.textContent = pathway.dailyIntegration.title;
+  dailyCopy.textContent = pathway.dailyIntegration.copy;
+  setMediaImage(dailyVisual, pathway.dailyIntegration.image);
+  dailySteps.innerHTML = pathway.dailyIntegration.steps.map(journeyStepMarkup).join("");
+
+  deeperGrid.innerHTML = pathway.retentionLinks.map(journeyCardMarkup).join("");
+}
+
 function renderResult() {
   const scores = computeScores();
   const resultKey = determinePathway(scores);
   const pathway = pathways[resultKey];
+  const specimen = getSpecimenData(resultKey, pathway);
   state.resultKey = resultKey;
 
   resultTitle.textContent = pathway.title;
+  resultTitle.classList.toggle("is-long", pathway.title.length > 24);
   resultSummary.textContent = pathway.summary;
-  setMediaImage(resultMediaSlot, pathway.resultImage);
-  resultVisualTitle.textContent = pathway.title;
-  resultVisualCopy.textContent = "Add a quiet editorial image here.";
-  deckTitle.textContent = pathway.deckTitle;
-  deckCopy.textContent = pathway.deckCopy;
-  deckVisual.textContent = "";
-  setMediaImage(deckVisual, pathway.deckImage);
-  eventTitle.textContent = pathway.eventTitle;
-  eventCopy.textContent = pathway.eventCopy;
-  eventVisual.textContent = "";
-  setMediaImage(eventVisual, pathway.eventImage);
+  resultFamilyChip.textContent = specimen.familyName;
+  resultFamilyNote.textContent = specimen.familyNote;
+  specimenHeadTitle.textContent = specimen.headTitle;
+  specimenHeadSet.textContent = specimen.starterSet;
+  specimenTone.textContent = specimen.familyTone;
+  specimenFamily.textContent = pathway.title;
+  specimenCount.textContent = specimen.familyCards;
+  resultCardStackNote.textContent = specimen.stackNote;
+  resultCardDetailTitle.textContent = specimen.detailTitle;
+  resultCardDetailCopy.textContent = specimen.detailCopy;
+  deckIndexFamily.textContent = specimen.familyName;
+  deckIndexCount.textContent = `${specimen.startCards.length} starting cards`;
+  applySpecimenPalette(specimen.palette);
+
+  resultCardStack.innerHTML = specimen.startCards
+    .map((card) => cardMarkup(card, pathway.title, "stack"))
+    .join("");
+  resultCardGrid.innerHTML = specimen.startCards
+    .map((card) => cardMarkup(card, pathway.title, "detail"))
+    .join("");
+  renderJourneySections(pathway);
 }
 
 function renderEmailPreview() {
   const pathway = pathways[state.resultKey];
   emailTitle.textContent = `${pathway.title}: Week 1`;
+  emailMetaSubject.textContent = pathway.emailSubject;
   emailSubject.textContent = pathway.emailSubject;
   emailIntro.textContent = pathway.emailIntro;
   setMediaImage(emailMediaSlot, pathway.emailImage);
@@ -497,56 +1064,6 @@ function renderEmailPreview() {
   reflectionCopy.textContent = pathway.plan[2].copy;
 }
 
-function submissionPayload() {
-  const scores = computeScores();
-  return {
-    timestamp: new Date().toISOString(),
-    name: nameInput.value.trim(),
-    email: emailInput.value.trim(),
-    pathwayKey: state.resultKey,
-    pathwayTitle: pathways[state.resultKey].title,
-    scores,
-    answers: state.answers.map((answerIndex, questionIndex) => ({
-      question: questions[questionIndex].prompt,
-      answer: answerIndex === null ? "" : questions[questionIndex].options[answerIndex].label,
-      path: answerIndex === null ? "" : questions[questionIndex].options[answerIndex].path
-    }))
-  };
-}
-
-async function submitCapture(event) {
-  event.preventDefault();
-  submitStatus.textContent = "Saving result...";
-  const payload = submissionPayload();
-  const endpoint = window.TRICYCLE_CONFIG?.sheetEndpoint;
-
-  try {
-    if (endpoint) {
-      const response = await fetch(endpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
-      });
-
-      if (!response.ok) {
-        throw new Error(`Webhook returned ${response.status}`);
-      }
-
-      submitStatus.textContent = "Saved to Google Sheets.";
-      return;
-    }
-
-    const existing = JSON.parse(localStorage.getItem("tricyclePrototypeResults") || "[]");
-    existing.push(payload);
-    localStorage.setItem("tricyclePrototypeResults", JSON.stringify(existing));
-    submitStatus.textContent = "Saved locally in this browser. Add a webhook later to send results to Sheets.";
-  } catch (error) {
-    submitStatus.textContent = `Could not save the result. ${error.message}`;
-  }
-}
-
 function goToQuestion(index) {
   state.currentQuestion = index;
   renderQuestion();
@@ -554,12 +1071,10 @@ function goToQuestion(index) {
 }
 
 function startQuiz() {
-  submitStatus.textContent = "";
   goToQuestion(0);
 }
 
 function previewSamplePathway(pathKey = "mindfulness") {
-  submitStatus.textContent = "";
   prefillAnswersForPath(pathKey);
   renderResult();
   showScreen("result");
@@ -569,9 +1084,6 @@ function restartQuiz() {
   state.currentQuestion = 0;
   state.answers = Array(questions.length).fill(null);
   state.resultKey = null;
-  submitStatus.textContent = "";
-  nameInput.value = "";
-  emailInput.value = "";
   renderQuestion();
   showScreen("welcome");
 }
@@ -580,6 +1092,22 @@ function prefillAnswersForPath(pathKey) {
   state.answers = questions.map((question) =>
     question.options.findIndex((option) => option.path === pathKey)
   );
+}
+
+function scrollToResultSection(sectionId) {
+  const target = document.getElementById(sectionId);
+  if (!target) {
+    return;
+  }
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function openEmailPreview() {
+  if (!state.resultKey) {
+    return;
+  }
+  renderEmailPreview();
+  showScreen("email");
 }
 
 function applyPreviewFromUrl() {
@@ -618,10 +1146,23 @@ function applyPreviewFromUrl() {
 
 document.getElementById("begin-quiz").addEventListener("click", startQuiz);
 document.getElementById("jump-to-preview").addEventListener("click", () => {
-  previewSamplePathway("mindfulness");
+  previewSamplePathway("interconnection");
 });
 document.getElementById("quiz-home").addEventListener("click", () => showScreen("welcome"));
 document.getElementById("retake-quiz").addEventListener("click", restartQuiz);
+document.getElementById("open-week-one-email").addEventListener("click", openEmailPreview);
+document.getElementById("go-to-deck-intro").addEventListener("click", () => {
+  scrollToResultSection("deck-intro-section");
+});
+document.getElementById("go-to-purchase").addEventListener("click", () => {
+  scrollToResultSection("purchase-section");
+});
+document.getElementById("go-to-daily").addEventListener("click", () => {
+  scrollToResultSection("daily-integration-section");
+});
+document.getElementById("go-to-deeper").addEventListener("click", () => {
+  scrollToResultSection("go-deeper-section");
+});
 
 nextButton.addEventListener("click", () => {
   if (state.answers[state.currentQuestion] === null) {
@@ -646,16 +1187,35 @@ backButton.addEventListener("click", () => {
 });
 
 document.getElementById("preview-week-one").addEventListener("click", () => {
-  renderEmailPreview();
-  showScreen("email");
+  resultCardDetail.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
 document.getElementById("back-to-result").addEventListener("click", () => {
   showScreen("result");
 });
 
-captureForm.addEventListener("submit", submitCapture);
+screens.result.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-scroll-target], [data-open-email], [data-preview-path]");
+  if (!button) {
+    return;
+  }
+
+  if (button.dataset.scrollTarget) {
+    scrollToResultSection(button.dataset.scrollTarget);
+    return;
+  }
+
+  if (button.dataset.openEmail !== undefined) {
+    openEmailPreview();
+    return;
+  }
+
+  if (button.dataset.previewPath) {
+    previewSamplePathway(button.dataset.previewPath);
+  }
+});
 
 setMediaImage(heroMedia, HERO_IMAGE);
+initLandingGallery();
 renderQuestion();
 applyPreviewFromUrl();
