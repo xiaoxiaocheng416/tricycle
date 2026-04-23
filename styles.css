@@ -597,8 +597,12 @@ h1 {
 .button {
   border: 1px solid transparent;
   border-radius: var(--radius-md);
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
   min-height: 46px;
   padding: 0 22px;
+  text-decoration: none;
   transition:
     transform 180ms ease,
     background-color 180ms ease,
@@ -949,7 +953,7 @@ h1 {
 }
 
 .result-stage-grid-specimen {
-  grid-template-columns: minmax(260px, 0.78fr) minmax(360px, 1.12fr) minmax(250px, 0.72fr);
+  grid-template-columns: minmax(0, 0.74fr) minmax(390px, 1.06fr) minmax(260px, 0.68fr);
 }
 
 .result-specimen-copy,
@@ -969,9 +973,10 @@ h1 {
 }
 
 .result-specimen-copy h2.is-long {
-  font-size: clamp(2rem, 3.1vw, 3.5rem);
-  letter-spacing: -0.075em;
-  line-height: 0.98;
+  font-size: clamp(1.95rem, 2.25vw, 2.72rem);
+  letter-spacing: -0.055em;
+  line-height: 1.04;
+  max-width: 440px;
 }
 
 .result-summary {
@@ -1196,8 +1201,23 @@ h1 {
   min-height: 138px;
 }
 
+.spec-card-image-field {
+  background-color: color-mix(in srgb, var(--family-accent-soft) 34%, rgba(255, 255, 255, 0.94));
+  background-image: var(--spec-card-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-color: transparent;
+  box-shadow: none;
+  min-height: 240px;
+}
+
 .spec-card-stack .spec-card-field {
   margin-bottom: 16px;
+}
+
+.spec-card-stack .spec-card-image-field {
+  min-height: 178px;
 }
 
 .spec-card-body {
@@ -1252,6 +1272,10 @@ h1 {
 .spec-card-detail .spec-card-field {
   margin-bottom: 16px;
   min-height: 120px;
+}
+
+.spec-card-detail .spec-card-image-field {
+  min-height: 280px;
 }
 
 .deck-index-strip {

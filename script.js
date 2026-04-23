@@ -1,4 +1,12 @@
 const HERO_IMAGE = "./assets/images/new/tri2.jpg";
+const MOCKUP_CARD_IMAGES = {
+  foundationsQuote: "./assets/images/mockup-cards/1.png",
+  creativityQuote: "./assets/images/mockup-cards/2.png",
+  interconnectionQuote: "./assets/images/mockup-cards/3.png",
+  pinkSymbol: "./assets/images/mockup-cards/4.png",
+  foundationsSymbol: "./assets/images/mockup-cards/5.png",
+  interconnectionSymbol: "./assets/images/mockup-cards/6.png"
+};
 
 const pathways = {
   mindfulness: {
@@ -97,6 +105,29 @@ const pathways = {
     emailSubject: "Week 1: Start by noticing what holds you",
     emailIntro:
       "Welcome to Interconnection & Nature. This week invites you to practice through movement, environment, and a wider sense of belonging.",
+    startCards: [
+      {
+        number: "01",
+        kind: "Practice",
+        title: "Walking practice",
+        copy: "Take one ten-minute walk with attention on sound, contact, weather, and the life around you.",
+        image: MOCKUP_CARD_IMAGES.interconnectionQuote
+      },
+      {
+        number: "02",
+        kind: "Reading",
+        title: "Suggested reading",
+        copy: "Read a Tricycle selection on interdependence, climate grief, and awakening through relationship.",
+        image: MOCKUP_CARD_IMAGES.interconnectionSymbol
+      },
+      {
+        number: "03",
+        kind: "Journal",
+        title: "Journal prompt",
+        copy: "Ask: What changes when I understand myself as part of a living field rather than a separate unit?",
+        image: MOCKUP_CARD_IMAGES.interconnectionQuote
+      }
+    ],
     plan: [
       {
         title: "Walking practice",
@@ -133,19 +164,22 @@ const pathways = {
         number: "03",
         kind: "Prompt",
         title: "Open the Page",
-        copy: "Make one small mark, line, or note before you decide what it is for."
+        copy: "Make one small mark, line, or note before you decide what it is for.",
+        image: MOCKUP_CARD_IMAGES.creativityQuote
       },
       {
         number: "11",
         kind: "Practice",
         title: "Follow the Gesture",
-        copy: "Set a timer for eight minutes and keep your attention on texture, pace, and breath while you make."
+        copy: "Set a timer for eight minutes and keep your attention on texture, pace, and breath while you make.",
+        image: MOCKUP_CARD_IMAGES.pinkSymbol
       },
       {
         number: "18",
         kind: "Journal",
         title: "Keep the Trace",
-        copy: "Write a few sentences on what shifted when expression came before explanation."
+        copy: "Write a few sentences on what shifted when expression came before explanation.",
+        image: MOCKUP_CARD_IMAGES.creativityQuote
       }
     ],
     resultImage: "./assets/images/new/他日.jpg",
@@ -201,6 +235,29 @@ const pathways = {
     emailSubject: "Week 1: Begin with the shape of the teachings",
     emailIntro:
       "Welcome to Foundations of Buddhism. This week provides a clear, digestible starting sequence so you can understand what the teachings are actually pointing toward.",
+    startCards: [
+      {
+        number: "01",
+        kind: "Teaching",
+        title: "Core teaching",
+        copy: "Start with a short introduction to the Four Noble Truths and why suffering is framed as something to understand, not avoid.",
+        image: MOCKUP_CARD_IMAGES.foundationsQuote
+      },
+      {
+        number: "02",
+        kind: "Reading",
+        title: "Suggested reading",
+        copy: "Read a Tricycle primer on foundational teachings, key terms, and how study connects back to lived practice.",
+        image: MOCKUP_CARD_IMAGES.foundationsSymbol
+      },
+      {
+        number: "03",
+        kind: "Journal",
+        title: "Reflection prompt",
+        copy: "Ask: What do I expect Buddhism to solve for me, and what if the teachings are inviting a different question?",
+        image: MOCKUP_CARD_IMAGES.foundationsQuote
+      }
+    ],
     plan: [
       {
         title: "Core teaching",
@@ -322,20 +379,9 @@ const questions = [
 
 const pathwayOrder = ["mindfulness", "compassion", "interconnection", "creativity", "foundations"];
 
-function getNextPathKey(currentKey) {
-  const currentIndex = pathwayOrder.indexOf(currentKey);
-  if (currentIndex === -1) {
-    return pathwayOrder[0];
-  }
-  return pathwayOrder[(currentIndex + 1) % pathwayOrder.length];
-}
-
 function ensureJourneyContent() {
   pathwayOrder.forEach((key) => {
     const pathway = pathways[key];
-    const nextKey = getNextPathKey(key);
-    const nextPathway = pathways[nextKey];
-
     pathway.engagementCards =
       pathway.engagementCards ||
       [
@@ -431,27 +477,28 @@ function ensureJourneyContent() {
       pathway.retentionLinks ||
       [
         {
-          eyebrow: "Next Pathway",
-          title: `Explore ${nextPathway.title}`,
-          copy: "Preview another way into Buddhist-inspired practice and see how the system expands beyond one result.",
-          ctaLabel: "Preview pathway",
-          action: "preview-path",
-          pathKey: nextKey
+          eyebrow: "Read",
+          title: "Read related teachings",
+          copy: "Move from your pathway back into Tricycle's deeper archive of Buddhist thought, practice, and commentary.",
+          ctaLabel: "Open Teachings",
+          action: "external",
+          url: "https://tricycle.org/topic/teachings/"
+        },
+        {
+          eyebrow: "Explore",
+          title: "Explore another pathway",
+          copy: "Use Tricycle's beginner-facing resources to find another doorway into practice when you are ready.",
+          ctaLabel: "Open Beginners",
+          action: "external",
+          url: "https://tricycle.org/buddhism-for-beginners/"
         },
         {
           eyebrow: "Community",
-          title: "Join an event or in-person moment",
-          copy: "See how the pathway can appear in studios, bookstore tables, or small guided gatherings.",
-          ctaLabel: "See buy options",
-          action: "scroll",
-          target: "purchase-section"
-        },
-        {
-          eyebrow: "Seasonal Drops",
-          title: "Get future emails and deck updates",
-          copy: "Use digital follow-up to discover new pathways, future drops, and other ways to go deeper.",
-          ctaLabel: "Preview email",
-          action: "email"
+          title: "Find events / community",
+          copy: "Continue through talks, gatherings, and live Tricycle moments that turn reading into shared practice.",
+          ctaLabel: "Open Events",
+          action: "external",
+          url: "https://tricycle.org/events/"
         }
       ];
   });
@@ -947,13 +994,17 @@ function applySpecimenPalette(palette) {
 }
 
 function cardMarkup(card, familyName, variant) {
+  const imageMarkup = card.image
+    ? `<div class="spec-card-field spec-card-image-field" style="--spec-card-image: url('${card.image}')" aria-hidden="true"></div>`
+    : `<div class="spec-card-field" aria-hidden="true"></div>`;
+
   return `
     <article class="spec-card spec-card-${variant}">
       <div class="spec-card-head">
         <span class="spec-card-number">Card ${card.number}</span>
         <span class="spec-card-kind">${card.kind}</span>
       </div>
-      <div class="spec-card-field" aria-hidden="true"></div>
+      ${imageMarkup}
       <div class="spec-card-body">
         <p class="spec-card-family">${familyName}</p>
         <h4>${card.title}</h4>
@@ -965,7 +1016,14 @@ function cardMarkup(card, familyName, variant) {
 
 function journeyCardMarkup(item) {
   const buttonMarkup = item.ctaLabel
-    ? `<button
+    ? item.action === "external"
+      ? `<a
+        class="button button-secondary button-inline"
+        href="${item.url}"
+        target="_blank"
+        rel="noreferrer"
+      >${item.ctaLabel}</a>`
+      : `<button
         class="button button-secondary button-inline"
         type="button"
         ${item.action === "email" ? 'data-open-email="true"' : ""}
@@ -1025,7 +1083,7 @@ function renderResult() {
   state.resultKey = resultKey;
 
   resultTitle.textContent = pathway.title;
-  resultTitle.classList.toggle("is-long", pathway.title.length > 24);
+  resultTitle.classList.toggle("is-long", pathway.title.length >= 20);
   resultSummary.textContent = pathway.summary;
   resultFamilyChip.textContent = specimen.familyName;
   resultFamilyNote.textContent = specimen.familyNote;
